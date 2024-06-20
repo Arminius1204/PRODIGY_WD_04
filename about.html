@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - About Me</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a dedicated second-year student at Christ University, I am pursuing a BSc in Computer Science and Mathematics. My academic journey has equipped me with a solid foundation in web development, Python, and data structures and algorithms (DSA) in C programming. I am passionate about leveraging these skills to solve complex problems and create innovative solutions. With a keen interest in both theoretical and practical aspects of computer science, I am eager to connect with like-minded professionals and explore opportunities that will further enhance my expertise and contribute to the tech community.</p>
+        <h2>Education</h2>
+        <p>High School Secondary Education, Summer Fields School</p>
+        <p>Bachelor's Degree in Computer Science and Mathematics, Christ University</p>
+        <h2>Professional Experience</h2>
+        <p>Full Time Student Volunter in Student Welfare Office, Christ University</p>
+        <p>Web Development Intern at Prodigy Infotech (Internship)</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>C Programming</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>To build a stopwatch web application, you can use HTML, CSS, and JavaScript. HTML is used to structure the elements of the application. By implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals. With these technologies and functionalities, you can create an interactive and user-friendly stopwatch web application.</p>
+            <a href="https://github.com/Arminius1204/PRODIGY_WD_02.git" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Build a personal portfolio website that showcases your skills, projects, and accomplishments as a web developer. Design an attractive and visually appealing layout that captures visitors' attention. Include a home page with a captivating headline, professional photo, and summary of your skills. Provide an "About Me" section with a detailed background, education, and professional experience.</p>
+            <a href="http://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" style="font-size: 30px; text-align: center;">Send</button>
+        </form>
+    </section>
+</body>
+</html>
