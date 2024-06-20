@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(#4E0CF0,#AB0CF0,#ffffff);
+    background-image: linear-gradient(#4E0CF0, #AB0CF0, #ffffff);
     color: white;
     padding: 1em;
     text-align: center;
@@ -17,7 +17,7 @@ header {
 nav ul {
     padding-top: 1%;
     list-style-type: none;
-    padding: 5;
+    padding: 0; /* Fixed padding to 0 */
     margin: 0;
 }
 
@@ -26,21 +26,19 @@ nav ul li {
     margin: 0 1em;
 }
 
-
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 7px 13px;
     border-radius: 3px;
+    transition: all 0.3s ease; /* Changed to transition all */
 }
 
-a:hover{
-
+nav ul li a:hover {
     background: #0d92f8;
-    transition: .5s;
+    font-size: 25px;
 }
-
 
 .hero {
     margin: 2em 0;
@@ -53,8 +51,13 @@ a:hover{
     height: 300px;
 }
 
+.social-icon {
+    margin: 0 65px;
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
 
-
-
-
-
+.social-icon:hover {
+    transform: scale(1.3); /* Zoom in effect */
+}
